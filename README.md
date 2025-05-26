@@ -23,16 +23,34 @@ a) Criar topologia:  `sudo mn --topo tree,depth=4,fanout=3 --mac --link tc,bw=35
 
 
 b) Inspeção de interfaces: 
-- `nodes` 
+- `nodes`: lista de hosts e switches 
 
 ![alt text](image-2.png)
 
-- `dump`
+- `dump`: Estados dos nós
 
 ![alt text](image-3.png)
 
-- `h1 ifconfig`
+- `h1 ifconfig`: para ver IP e MAC
 
 ![alt text](image-4.png)
+
+c) ![alt text](<diagrama mininet.png>)
+
+
+d) ![alt text](image-5.png)
+
+e) Teste com 5:
+
+![alt text](image-6.png)
+
+Inspecionando h1: ![alt text](image-7.png)
+
+Inspencionando h2: ![alt text](image-8.png)
+
+Especificando porta h1: ![alt text](image-9.png)
+
+Declarando h1 como servidor e h2 como cliente + emitindo relatório: ![alt text](image-10.png)
+
 
 
